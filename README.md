@@ -8,8 +8,6 @@
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
 
-[Software Demo Video](http://youtube.link.goes.here)
-
 # Cloud Database
 
 {Firebase allows me to store information in the cloud from an app. it is a back-end cloud based platform designed to store data entered and manipulated on the program I created}
