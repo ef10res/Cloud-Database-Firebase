@@ -2,6 +2,9 @@ from menu import show_menu
 import user_service as user
 import workout as workout
 
+if __name__ == "__main__":
+    show_menu()
+
 # selection of menu items
 while True:
     show_menu()
