@@ -1,3 +1,4 @@
+# application menu.
 def show_menu():
     print("\n=== FITNESS TRACKER ===")
     print("1. Add user")

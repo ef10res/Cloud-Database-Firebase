@@ -1,5 +1,6 @@
 from firebase import db
 
+# add user function
 def add_user():
     user_id = input("User ID: ")
     name = input("Name: ")
@@ -10,6 +11,7 @@ def add_user():
 
     print("User added!")
 
+# view users function
 def view_users():
     users = db.collection("users").stream()
     
@@ -17,6 +19,7 @@ def view_users():
     for u in users:
         print(u.id, u.to_dict())
 
+# delete user function
 def delete_user():
     user_id = input("User ID to delete: ")
 

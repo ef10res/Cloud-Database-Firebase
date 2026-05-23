@@ -2,6 +2,7 @@ from menu import show_menu
 import user_service as user
 import workout as workout
 
+# selection of menu items
 while True:
     show_menu()
     choice = input("Select option: ")
@@ -30,6 +31,6 @@ while True:
     elif choice == "8":
         print("Goodbye!")
         break
-    
+
     else:
         print("Invalid option")
